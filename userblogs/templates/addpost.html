@@ -1,0 +1,28 @@
+{% extends 'header.html' %}
+{% block myContent  %}
+
+
+<form action="http://localhost:8000/userblogs/addpostAction/" method="post">
+
+
+
+<table class="table">
+  <tr>
+        <td> Message  </td>
+        <td> 
+            <textarea name="message" id="" cols="30" rows="10" class="form-control"></textarea>
+        </td>
+    </tr>
+
+
+    
+    <tr>
+        <td></td>
+        <td> <button class="btn btn-success"> Submit </button></td>
+    </tr>
+
+   
+</table>
+</form>
+
+{% endblock   %}

@@ -1,0 +1,28 @@
+{% extends 'header.html' %}
+{% block myContent  %}
+
+ <table class="table">
+
+     <tr>
+            <td> Id </td>
+            <td>  {{ data.id }}  </td>
+        </tr>
+        <tr>
+            <td> Name </td>
+            <td> <input type="text" value=" {{ data.name }} " class="form-control"> </td>
+        </tr>
+        <tr>
+            <td>Username </td>
+            <td>  {{ data.username }}</td>
+        </tr>
+
+          <tr>
+            <td> </td>
+            <td>  <button class="btn btn-success"> Edit </button></td>
+        </tr>
+    </table>
+
+{% endblock   %}
+
+
+   

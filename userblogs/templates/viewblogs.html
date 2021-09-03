@@ -1,0 +1,15 @@
+{% extends 'header.html' %}
+{% block myContent  %}
+
+<table class="table">
+
+    {% for i in data %}
+<tr>
+   
+    <td> {{ i.message }}  </td>
+</tr>
+
+    {%  endfor %}
+</table>
+
+{% endblock   %}
